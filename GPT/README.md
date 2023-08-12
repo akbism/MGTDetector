@@ -2,6 +2,10 @@ To reproduce the research, please create a GPT folder and set it as the root pat
 Keep all data (text files or csv files) in respective folders inside the GPT folder.
 
 Then run the scripts as per the below sequence:
+
+- 0_prepare_data.ipynb
+This script will preprocess the text files and prepare a dataframe for model input.
+
 - 1_detectGPT_and_GPTZero.ipynb
 This should provide the DetectGPT, GPTZero labels, probability and several scores including perplexity, perplexity per line, burstiness etc. 
 
